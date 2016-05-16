@@ -24,7 +24,6 @@ class Mastermind
       guess = gets.chomp.downcase
       guess_validator(guess)
       game_logic(guess)
-      puts @correct_answer
       @counter += 1
       computer_response(guess)
     end
